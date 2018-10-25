@@ -1,9 +1,9 @@
 # coding:utf-8
 
+
 import unittest
 import os
 import HTMLTestRunner
-
 
 # 用例路径
 case_path = os.path.join(os.getcwd(), 'test_weather')
