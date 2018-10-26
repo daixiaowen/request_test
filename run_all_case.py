@@ -9,7 +9,7 @@ import HTMLTestRunner
 case_path = os.path.join(os.getcwd(), 'test_weather')
 
 # 测试报告路径
-report_path = os.path.join(os.getcwd(), 'report.html')
+report_path = os.path.join(os.getcwd(), 'result.html')
 
 def all_case():
     discover = unittest.defaultTestLoader.discover(case_path,pattern='test*.py', top_level_dir=None)
